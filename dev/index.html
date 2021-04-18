@@ -40,6 +40,12 @@
                 padding: 3rem;
                 background: linear-gradient(180deg, #fff 0%, #ddd 100%);
             }
+
+            .tab1-content div {
+              margin: 10px;
+              min-width: 33%;
+            }
+
             .tab1-content p {
                 font-size: 22px;
             }
@@ -61,7 +67,10 @@
                 <tabs-component>
                           <l-box title="Example Tab 1">
                             <div class="tab1-content">
+                              <div>
                               <h2>This is an example of a tab with its own styling</h2>
+                            </div>
+                          <div>
                               <p>
                                 Aliquam erat volutpat. Sed maximus sollicitudin fermentum. Fusce
                                 fringilla tincidunt est non feugiat. Fusce blandit id ex iaculis
@@ -69,6 +78,7 @@
                                 Pellentesque nibh lacus, fermentum vitae tempus sit amet, consequat
                                 at tortor. In hac habitasse platea dictumst.
                               </p>
+                            </div>
                             </div>
                           </l-box>
                           <l-box title="Example Tab 2">
