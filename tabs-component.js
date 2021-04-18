@@ -16,7 +16,7 @@ export class Tabs extends LitElement {
   static get styles() {
     return css`
     :host {
-      font-family: 'DM Sans', Helvetica, Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
     }
     .tab-list {
       text-align: center;
@@ -36,11 +36,11 @@ export class Tabs extends LitElement {
       width: 100%;
       bottom: 0;
       left: 0;
-      border-bottom: 1px solid rgb(45, 60, 255);
+      border-bottom: 1px solid #000;
       z-index: 1;
     }
     .tab {
-      border: 1px solid rgb(160, 160, 255);
+      border: 1px solid #cfcfcf;
       display: inline-block;
       background: #fff;
       position: relative;
@@ -81,7 +81,7 @@ export class Tabs extends LitElement {
       box-shadow: -2px 2px 0 #d1d1d1;
     }
     .selected {
-      border: 1px solid rgb(45, 60, 255);
+      border: 1px solid #000;
       background: #fff;
       color: #333;
       z-index: 2;
